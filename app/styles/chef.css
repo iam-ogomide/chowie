@@ -1,0 +1,28 @@
+.chefTop h2{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: #C41E3A;
+    margin: 0.8rem;
+}
+.chefTop p{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.chef-grid-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chef-grid{
+    margin-bottom: 1rem;
+}
+.chef-grid img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1.1rem;
+}

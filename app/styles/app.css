@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  background: #fff;
+  overflow-x: hidden;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+.plain{
+  background: #190422;
+}
+.section__padding{
+  padding: 4rem 6rem;
+}
+.section__margin{
+  margin: 4rem 6rem;
+}
+
+
+
+
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 700px){
+  .section__padding{
+      padding: 4rem;
+  }
+  .section__margin{
+      margin: 4rem;
+  }
+}
+/* For Mobile devices */
+@media screen and (max-width: 550px){
+  .section__padding{
+      padding: 4rem 2rem;
+  }
+  .section__margin{
+      margin: 4rem 2rem;
+  }
+}

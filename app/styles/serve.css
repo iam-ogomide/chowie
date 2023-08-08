@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    
+  
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+.how-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.how-container h2{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+.how-container h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: #C41E3A;
+    margin: 0.8rem;
+    
+}
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 8rem; */
+    margin-top: 3rem;
+    box-sizing: border-box;
+}
+.box{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.white svg{
+    color: #C41E3A;
+}
+.blue svg{
+    color: white;
+}
+.box svg{
+    width: 40px;
+    height: 40px;
+}
+.box-1{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.box-2{
+    width: 70px;
+    height: 70px;
+    background-color: #C41E3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* @media screen and (max-width: 833px){
+    .how-container h4{
+        padding: 0;
+    }
+} */
+@media screen and (max-width: 700px){
+    .bottom-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 375px){
+    .how-container h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .how-container h4{
+        font-size: 21px;
+        line-height: 35px;
+    }
+}

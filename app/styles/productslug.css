@@ -1,0 +1,74 @@
+.ProductInfo{
+    display: flex;
+    
+}
+.ProductLeft{
+    flex: 1;
+}
+.MainTab{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ImageTabListWrapper{
+    /* width: 100px; */
+    height: 100px;
+    object-position: center;
+    object-fit: cover;
+    margin: 1rem 1rem 0 0;
+    /* flex: 1; */
+}
+.ImageTabListWrapper img{
+    width: 100%;
+    height: 100%;
+}
+.ring-indigo {
+    background: blue;
+    width: 200px ;
+    height: 200px;
+    outline: none;
+}
+.ring-transparent {
+    --tw-ring-color: transparent;
+}
+.ImageTabListSpan{}
+.ImageTabListSpanImg{}
+.ImageTabListSpanImgSe{
+    background: red;
+}
+/* .ImageTabList{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); 
+     gap: 1.5rem;
+} */
+.bigImg{
+    /* width: 350px ; */
+    height: 60vh ;
+  /* min-width: 290px; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E5E4E2;
+}
+.bigImg img{
+    width: 100%;
+  height: 100%;
+  /* max-height: 400px; */
+  /* display: block; */
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+
+.ProductRight{
+    flex: 1;
+    margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 920px) {
+    .ProductInfo{
+        flex-direction: column;
+    }
+   
+}
